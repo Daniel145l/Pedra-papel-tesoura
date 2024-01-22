@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html,body {
+    height: 100%;
+    background-color: aquamarine;
+}
+
+div.game-info {
+    margin: 50% auto;
+    transform: translateY(-50%);
+    width: 60%;
+    padding: 25px;
+    background-color: chocolate;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #000;
+    box-shadow: 14px 14px #000;
+}
+
+div.button-box {margin-top: 30px;}
+
+div.button-box button {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: #ffd484;
+    transition: all .2s;
+}
+
+div.button-box button:hover {
+    background-color: #FFF;
+    transition: all .2s;
+}
